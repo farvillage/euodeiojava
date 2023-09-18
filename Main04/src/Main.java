@@ -21,7 +21,7 @@ public class Main {
             System.out.println("Input grade 01: ");
             s.setGrade01(sc.nextInt());
 
-            System.out,println("Input grade 02: ");
+            System.out.println("Input grade 02: ");
             s.setGrade02(sc.nextInt());
             s.calcMedia();
 
@@ -41,7 +41,7 @@ public class Main {
             System.out.println("Teacher's salary: ");
             t.getSalary(sc.nextDouble());
             break;
-        default;
+        default:
             System.out.println("null");
         }
     }
